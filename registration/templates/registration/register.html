@@ -1,0 +1,10 @@
+<!-- registration/templates/registration/register.html -->
+<h1>Yangi navbat qo'shish</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Saqlash</button>
+</form>
+
+<a href="{% url 'home' %}">Orqaga</a>

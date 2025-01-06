@@ -1,0 +1,14 @@
+<!-- registration/templates/registration/home.html -->
+<h1>Navbatlar ro'yxati</h1>
+
+<ul>
+    {% for navbat in navbatlar %}
+    <li>{{ navbat.name }} - {{ navbat.phone_number }} - {{ navbat.reason }}</li>
+    {% empty %}
+    <li>Hozircha navbat mavjud emas.</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'register' %}">
+    <button>Yangi navbat qo'shish</button>
+</a>
