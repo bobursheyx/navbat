@@ -1,0 +1,8 @@
+body {
+    background-image: url("static/registration/mmm.webp");
+    background-size: cover; /* Rasmni ekran o'lchamiga moslashtiradi */
+    background-position: center; /* Rasmni markazga joylashtiradi */
+    background-repeat: no-repeat; /* Rasmni takrorlanishiga yo'l qo'ymaydi */
+    height: 100vh; /* Ekranni to'liq qoplash */
+    margin: 0; /* Chegaralarni olib tashlash */
+}

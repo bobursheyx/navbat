@@ -3,6 +3,7 @@ from django import forms
 from .models import Registration
 
 class RegistrationForm(forms.ModelForm):
+
     class Meta:
         model = Registration
-        fields = ['name', 'phone_number', 'reason']
+        fields = ['Ism_Familyangiz', 'Telefon_raqamingiz', 'Navbat_olishning_sababi', 'Manzil',]
